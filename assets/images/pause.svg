@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px"
+	 width="100px" height="100px" viewBox="-20 -20 100 100" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st1{fill:#4F0B7B;}
+</style>
+<filter x="-96.7%" y="-96.7%" width="293.3%" height="293.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-5" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+<path filter="url(#filter-1)" class="st0" d="M0.08,29.81c-0.46-6.25,1.19-12.13,5.24-17.22c1.46-1.83,3.16-3.62,5.1-4.9c3.36-2.21,6.99-4,10.52-5.96
+	c2.3-1.27,4.77-1.82,7.4-1.73c3.66,0.11,7.3,0,10.94,0.82c2.78,0.62,5.23,1.63,7.39,3.39c5.64,4.57,10.67,9.6,12.24,17.04
+	c1.59,7.49,1.75,14.87-1.87,21.94c-1.67,3.26-3.07,6.68-5.85,9.21c-4.15,3.77-8.77,6.58-14.57,6.96c-2.38,0.16-4.75,0.34-7.12,0.58
+	c-1.69,0.17-3.25-0.11-4.83-0.71c-4.61-1.75-9.42-2.84-13.7-5.56C4.2,49.38,1.18,43.07,0.12,35.52
+	C-0.13,33.73,0.08,31.86,0.08,29.81"/>
+<g>
+	<path class="st1" d="M20.66,13.05c-0.26,0.15-0.44,0.35-0.44,0.57c-0.02,5.83-0.04,11.66-0.06,17.49
+		c-0.02,5.25-0.95,11.63-0.02,16.77c0.77,4.27,6.01,3.3,6.29-0.61c0.41-5.52,0.29-11.16,0.44-16.7c0.08-2.93,0.15-5.86,0.23-8.79
+		c0.06-2.36,0.74-5.8,0.16-8.11C26.49,10.58,22.05,10.82,20.66,13.05z"/>
+	<path class="st1" d="M39.97,39.96c-0.03-3-0.06-6.01-0.09-9.01c-0.06-5.7,0.05-11.43-0.18-17.12c-0.11-2.63-0.99-4.6-3.79-4.49
+		c-2,0.08-3.38,1.26-4.04,3.21c-0.12,0.35,0.11,0.54,0.48,0.6c0.13,10.65-0.17,21.44,0.5,32.05c0.18,2.83,1.27,5.03,4.18,4.77
+		c1.48-0.13,2.52-0.81,2.96-2.31C40.62,45.5,40,42.19,39.97,39.96z"/>
+</g>
+</svg>

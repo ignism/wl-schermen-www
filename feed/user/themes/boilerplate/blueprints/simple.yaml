@@ -1,0 +1,20 @@
+title: Simple
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          type: tab
+          title: Content
+          fields:
+
+            content:
+              unset@: true
+
+            header.media_order:
+              unset@: true
+        
+        advanced:
+          unset@: true

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ theme_config.default_lang }}">
+    <head>
+        {% block head %}
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>{{ site.title }}</title>
+
+            <link rel="canonical" href="{{ page.url(true, true) }}">
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="icon" type="image/png" href="{{ url('theme://img/favicon.png') }}">
+
+            {% block stylesheets %}
+                {% do 
+                    assets.addCss('theme://assets/bundle.css') %}
+            {% endblock %}
+
+            {{ assets.css() }}
+
+            {% block javascripts %}
+                {% do 
+                    assets.addJs('theme://assets/bundle.js', {'group': 'bottom'}) %}
+            {% endblock %}
+
+            {{ assets.js() }}
+
+        {% endblock head %}
+    </head>
+
+    <body class="bg-grey-lighter mx-auto max-w-5xl">
+
+        <header class="bg-grey px-5 py-5">
+
+        </header>
+
+        <section class="bg-white px-5 py-5">
+            {% block content %}{% endblock %}
+        </section>
+
+        <footer class="bg-grey-darkest px-5 py-5">
+
+        </footer>
+
+        {% block bottom %}
+            {{ assets.js('bottom') }}
+        {% endblock %}
+    </body>
+</html>

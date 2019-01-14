@@ -1,0 +1,13 @@
+name: Boilerplate
+version: 0.0.1
+description: "Boilerplate GRAV Theme"
+icon: grav
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: https://getgrav.org
+homepage:
+demo:
+keywords:
+bugs:
+license: MIT
