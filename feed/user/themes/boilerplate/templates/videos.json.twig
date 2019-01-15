@@ -1,4 +1,5 @@
 {% set videos = [] %}
+{# {% set ids = [] %} #}
 {% for video in page.header.videos %}
     {% set id = video.id %}
     {% if 'youtube.com' in video.id %}
@@ -7,7 +8,10 @@
         {% set id = video.id|split('youtu.be/')[1] %}
         {% else %}
     {% endif %}
-    {% set videos = videos|merge([{'id': id}]) %}
+    {# {% set ids = ids|merge([{'id': id}]) %} #}
+    {% set currVideo = {'id': id, 'name': video.name, 'function': video.function } %}
+    {% set videos = videos|merge([currVideo]) %}
 {% endfor %}
+
 {% set payload = {videos: videos}  %}
 {{ payload|json_encode|raw }}
