@@ -9,7 +9,7 @@
         {% else %}
     {% endif %}
     {# {% set ids = ids|merge([{'id': id}]) %} #}
-    {% set currVideo = {'id': id, 'name': video.name, 'function': video.function } %}
+    {% set currVideo = {'id': id, 'title': video.title, 'name': video.name, 'function': video.function } %}
     {% set videos = videos|merge([currVideo]) %}
 {% endfor %}
 
