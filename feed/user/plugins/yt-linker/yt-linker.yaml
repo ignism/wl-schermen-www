@@ -1,0 +1,4 @@
+enabled: true
+active: true
+route: /yt-linker
+text_var: Custom Text added by the **Yt Linker** plugin (disable plugin to remove)
